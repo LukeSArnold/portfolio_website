@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Luke Arnold | Portfolio",
-  description: "Software Developer specializing in React, Next.js, and Node.js",
+  description: "Full Stack Developer specializing in React, Next.js, and Node.js",
 }
 
 export default function RootLayout({
@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+        <ThemeProvider>
           <div className="flex flex-col min-h-screen">
             <Navbar />
             <div className="flex-grow w-full">{children}</div>
@@ -32,4 +32,3 @@ export default function RootLayout({
     </html>
   )
 }
-
