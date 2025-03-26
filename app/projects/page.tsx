@@ -17,7 +17,7 @@ export default function ProjectsPage() {
       <div className="space-y-4 mb-8">
         <h1 className="text-4xl font-bold">My Projects</h1>
         <p className="text-muted-foreground text-lg max-w-3xl">
-          Here are some of the projects I've worked on recently. Each project represents a unique challenge and
+          Here are some of the projects I&apos;ve worked on recently. Each project represents a unique challenge and
           opportunity to learn and grow as a developer.
         </p>
       </div>

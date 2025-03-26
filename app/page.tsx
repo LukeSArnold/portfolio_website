@@ -63,17 +63,17 @@ export default function HomePage() {
             <Card className="p-6">
               <h2 className="text-2xl font-bold mb-4">About Me</h2>
               <p className="text-muted-foreground leading-relaxed">
-                Hello! I'm Luke, a passionate software developer with over 5 years of experience building web
+                Hello! I&apos;m Luke, a passionate software developer with over 5 years of experience building web
                 applications that solve real-world problems. I specialize in React, Next.js, Node.js, and modern cloud
                 infrastructure.
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
                 My journey in tech began in middle school when I built my first website. 
-                Since then, I've been obsessed with creating digital experiences that are both beautiful and functional. 
+                Since then, I&apos;ve been obsessed with creating digital experiences that are both beautiful and functional. 
                 I believe in clean code, user-centered design, and continuous learning.
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
-                When I'm not coding, you can find me hiking in the mountains, experimenting with new cooking recipes, or
+                When I&apos;m not coding, you can find me hiking in the mountains, experimenting with new cooking recipes, or
                 contributing to open-source projects.
               </p>
             </Card>
