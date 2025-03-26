@@ -8,9 +8,9 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { ArrowLeft, Calendar, MapPin, Globe } from "lucide-react"
 
 interface JobPageProps {
-  params: {
+  params: Promise<{
     name: string
-  }
+  }>
 }
 
 export async function generateMetadata({ params }: JobPageProps): Promise<Metadata> {

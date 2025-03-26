@@ -9,9 +9,9 @@ import { Card } from "@/components/ui/card"
 import { Calendar, Github, Globe, ArrowLeft } from "lucide-react"
 
 interface ProjectPageProps {
-  params: {
+  params: Promise<{
     name: string
-  }
+  }>
 }
 
 export async function generateMetadata({ params }: ProjectPageProps): Promise<Metadata> {
